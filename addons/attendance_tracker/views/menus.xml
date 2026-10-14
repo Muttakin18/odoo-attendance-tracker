@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_attendance_root" name="Attendance Tracker" sequence="50"
+              groups="attendance_tracker.group_attendance_user"/>
+
+    <menuitem id="menu_attendance_records" name="Records"
+              parent="menu_attendance_root" action="action_attendance_record" sequence="10"/>
+
+    <menuitem id="menu_attendance_reports" name="Reports"
+              parent="menu_attendance_root" sequence="20"
+              groups="attendance_tracker.group_attendance_manager"/>
+
+    <menuitem id="menu_attendance_summary_wizard" name="Attendance Summary"
+              parent="menu_attendance_reports" action="action_attendance_report_wizard"
+              sequence="10"/>
+</odoo>
