@@ -31,5 +31,15 @@ docker compose exec odoo odoo -d <test_db> -i attendance_tracker --test-enable -
 
 ## Odoo 18 note
 Change `<tree>` to `<list>` in views and `view_mode` `tree,form` to `list,form`.
+## Screenshots
+
+### Record form
+![Form](screenshots/form.PNG)
+
+### List view
+![List](screenshots/list.PNG)
+
+### PDF report
+![Report](screenshots/report.PNG)
 
 Author: Muttakin Mahmud
